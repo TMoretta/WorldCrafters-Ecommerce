@@ -1,51 +1,62 @@
 # WorldCrafters - Artisanal E-commerce Platform 🏺
 
-Progetto realizzato per il corso di **Tecnologie Software per il Web** presso l'**Università degli Studi di Salerno**.
+Project developed for the **Software Technologies for the Web** course at the **University of Salerno**.
 
-## 📌 Obiettivo del Progetto
-**WorldCrafters** è una piattaforma di e-commerce dedicata alla vendita di prodotti artigianali di alta qualità provenienti da tutto il mondo. Il sito offre una vasta gamma di articoli, tra cui gioielli, tessuti, strumenti musicali e oggetti per la casa, con un focus particolare sull'etica, la sostenibilità e l'artigianalità.
+## 📌 Project Objective
 
-## 🛠️ Stack Tecnologico
+**WorldCrafters** is an e-commerce platform dedicated to the sale of high-quality artisanal products sourced from makers around the world. The site offers a wide range of items, including jewelry, textiles, home goods, musical instruments, and more, with a strong focus on ethics, sustainability, and craftsmanship.
+
+## 🛠️ Tech Stack
+
 * **Frontend:** JSP (JavaServer Pages), CSS3, HTML5.
 * **Backend:** Java Servlet.
-* **Database:** MySQL (Schema EER strutturato).
-* **Qualità del Codice:** Analisi tramite SonarCloud.
+* **Database:** MySQL (Structured EER Schema).
+* **Code Quality:** Analysis via SonarCloud.
 
-## ✨ Funzionalità Principali
+## ✨ Key Features
 
-### 👤 Lato Utente (Registrato)
-* **Visualizzazione Catalogo:** Navigazione tra i prodotti con descrizioni curate e fotografie dettagliate.
-* **Gestione Carrello:** Aggiunta e rimozione di prodotti in tempo reale.
-* **Acquisti:** Procedura di checkout completa e visualizzazione dello storico ordini effettuati.
+### 👤 User (Registered)
 
-### 🕵️ Lato Guest (Non Registrato)
-* **Browsing Libero:** Accesso all'intero catalogo prodotti e gestione del carrello temporaneo.
-* **Registrazione On-demand:** Possibilità di registrarsi o effettuare il login durante la fase finale di acquisto.
+* **Catalog Browsing:** Navigation through products with curated descriptions and detailed photography.
+* **Cart Management:** Real-time addition and removal of products.
+* **Purchases:** Complete checkout procedure and purchase history view.
 
-### ⚙️ Lato Amministratore
-* **Gestione Catalogo:** Possibilità di aggiungere, modificare o eliminare prodotti dal sito.
-* **Gestione Operativa:** Monitoraggio degli ordini e gestione delle informazioni sui produttori artigianali.
+### 🕵️ Guest (Unregistered)
 
-## 🎨 Design e UI/UX
-Il layout è stato progettato per essere intuitivo, con una barra di ricerca sempre accessibile e una sidebar per una navigazione fluida.
+* **Free Browsing:** Access to the entire product catalog and temporary cart management.
+* **On-demand Registration:** Requirement to sign up or sign in only at the time of purchase finalization.
+* **Limited Access:** Guest users do not have access to the order history.
 
-**Palette Colori Utilizzata:**
-* `#8CADA7` (Verde Salvia)
-* `#002642` (Blu Notte)
-* `#FDF6ED` (Panna)
-* `#F19A3E` (Arancio)
-* `#9B1D20` (Amaranto)
+### ⚙️ Administrator
 
-## 📊 Architettura della Base di Dati
-Il database è composto da entità chiave per gestire ogni aspetto dell'e-commerce:
-* **User & Admin:** Gestione profili e permessi.
-* **Product:** Informazioni dettagliate sugli articoli, venditori e categorie.
-* **Cart & Cart_item:** Gestione persistente del carrello per gli utenti.
-* **Purchase & Payment:** Registrazione delle transazioni e dei dettagli di pagamento.
+* **Catalog Management:** Ability to add, edit, and delete products from the site.
+* **Operational Management:** Order monitoring and management of manufacturer/product information.
 
-## 👥 Autori
+## 🎨 Design and UI/UX
+
+The layout was designed to be intuitive, featuring a persistently accessible search bar and a sidebar for fluid navigation.
+
+**Color Palette:**
+
+* `#8CADA7` (Sage Green)
+* `#002642` (Midnight Blue)
+* `#FDF6ED` (Cream)
+* `#F19A3E` (Orange)
+* `#9B1D20` (Amaranth)
+
+## 📊 Database Architecture
+
+The database is composed of key entities to manage every aspect of the e-commerce platform:
+
+* **User & Admin:** Profile and permission management.
+* **Product:** Detailed information on items, sellers, and categories.
+* **Cart & Cart_item:** Persistent cart management for users.
+* **Purchase & Payment:** Record of transactions and payment details.
+
+## 👥 Authors
+
 * **Tommaso Moretta**
-* **Su Tianyu**
+* **Tianyu Su**
 
 ---
-*Progetto accademico - Corso di Laurea in Informatica.*
+*Academic Project - Bachelor's Degree in Computer Science.*
